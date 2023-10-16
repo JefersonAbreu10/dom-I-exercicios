@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>DOM I - Exercícios</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Frutas</title>
 </head>
-
 <body>
-  <main>
-    <ul id="lista-de-frutas">
-      <li id="fruta-1"></li>
-      <li id="fruta-2"></li>
-      <li id="fruta-3"></li>
-      <li id="fruta-4"></li>
+    <ul>
+        <li>Maçã</li>
+        <li>Pera</li>
+        <li>Banana</li>
+        <li></li>
     </ul>
-  </main>
+    <label for="frutaInput">Digite uma fruta: </label>
+    <input type="text" id="frutaInput">
+    <button onclick="adicionarFruta()">Adicionar à lista</button>
+    <script src="script.js"></script>
 </body>
-
 </html>
